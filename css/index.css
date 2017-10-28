@@ -1,7 +1,7 @@
 *{margin: 0;padding: 0;}
 body{background: url(http://img.claris.moe/BG.webp)no-repeat;background-size:100% auto;}
 footer{text-align:center;position:absolute;opacity:0.5;background-color: rgb(237,143,180);width: 100%;bottom: 0;}
-.cr{bottom:0;text-inline:none;}
+.cr{bottom:0;text-decoration:none;}
 #o1{position:absolute;font-size: 12px;width: 110px;height: 287px;background: rgb(237,143,180);float: left;left: 37%;bottom: 2.88%;border-radius: 8px;text-align: center;display: none;}
 #o2{position:absolute;font-size: 12px;width: 150px;height: 251px;background: rgb(237,143,180);float: left;left: 53.2%;bottom: 2.88%;border-radius: 8px;text-align: center;display:none;}
 hr{border:none;border-bottom: 1px dashed;}
