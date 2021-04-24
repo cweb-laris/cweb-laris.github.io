@@ -11,6 +11,7 @@
 	  const Dbar = document.getElementById('ccc');
   
   const dbRefHtml = firebase.database().ref().child('ccc');
+  const dbRefHtml = firebase.database().ref().child('bbb');
    
   dbRefHtml.on('value', snap=> Dbar.innerText = snap.val());;
 }());
