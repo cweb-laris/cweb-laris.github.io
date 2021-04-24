@@ -9,10 +9,9 @@
 };
 	firebase.initializeApp(config);
 	  const Dbar = document.getElementById('ccc');
-	  const Dbar1 = document.getElementById('bbb');
+
   
   const dbRefHtml = firebase.database().ref().child('ccc');
-  const dbRefHtml1 = firebase.database().ref().child('bbb');
    
   dbRefHtml.on('value', snap=> Dbar.innerText = snap.val());;
 }());
